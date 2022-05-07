@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-2</title>
+</head>
+<body>
+<!-- Image -->
+<!-- <image src="image.jpg" width="500px" height="500px" alt="Image"></image> -->
+<image src="image.jpg" width="500px" alt="Image"></image>
+
+<!-- Audio -->
+<audio src="Song.mp3" controls muted autoplay loop></audio>
+
+<!-- Vedio -->
+<video src="video.mp4" width="200px" autoplay controls loop muted></video>
+
+<!-- Form and Input -->
+<!-- Project -->
+<form method="GET">
+    <label for="name">Name:</label>
+    <input id="name" type="text" placeholder="Firstname Surname" name="name" required>
+    <br>
+    <br>
+    <label for="age">Age:</label>
+    <input id="age" type="number" value="18" min="18" max="25" name="age">
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input id="email" type="email" name="email" required placeholder="example@example.com">
+    <br>
+    <br>
+    <label for="password">Password:</label>
+    <input id="password" type="password" name="password" required placeholder="Enter a strong password" minlength="10" maxlength="50">
+    <br>
+    <br>
+    <label for="contact">Contact Number:</label>
+    <input id="contact" type="tel" name="contact" required placeholder="xxxxx12345" minlength="10" maxlength="12">
+    <br>
+    <br>
+    <label for="address">Address:</label>
+    <textarea name="address" id="address" cols="30" rows="3" requried placeholder="Enter your full address here"></textarea>
+    <br>
+    <br>
+    <label for="nationality">Nationality:</label>
+    <select name="nationality" id="nationality">
+        <option value="india" default>Indian</option>
+        <option value="usa">American</option>
+        <option value="australia">Australian</option>
+        <option value="europe">European</option>
+        <option value="middleEast">Middle East</option>
+    </select>
+    <br>
+    <br>
+    <label for="gender">Gender:</label>
+    <br>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="gender" value="male">
+    <br>
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="gender" value="female">
+    <br>
+    <label for="trans">Transgender</label>
+    <input type="radio" name="gender" id="gender" value="trans">
+    <br>
+    <br>
+    <label for="subject">Subjects:
+    </label>
+    <br>
+    <label for="maths">Maths</label>
+    <input type="checkbox" name="subject" id="maths" value="maths">
+    <br>
+    <label for="english">English</label>
+    <input type="checkbox" name="subject" id="english" value="english">
+    <br>
+    <label for="gujarati">Gujarati</label>
+    <input type="checkbox" name="subject" id="gujarati" value=""gujarati>
+    <br>
+    <br>
+    <label for="color">Fav. Color:</label>
+    <input type="color" name="color" id="color">
+    <br>
+    <br>
+    <label for="resume">Upload your Resume:</label>
+    <input type="file" name="resume" id="resume">
+    <br>
+    <br>
+    <input type="range" name="r" id="r">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
