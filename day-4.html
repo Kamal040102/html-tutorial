@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day-4</title>
+</head>
+<body>
+    <!-- flex-box -->
+    <h1>Original</h1>
+    <div>
+        <div class="container blue">
+        
+        </div>
+        <div class="container red">
+    
+        </div>
+        <div class="container green">
+    
+        </div>
+    </div>
+    
+    <h1>Diplay Flex</h1>
+    <div style="display: flex;">
+        <div class="container blue">
+        
+        </div>
+        <div class="container red">
+    
+        </div>
+        <div class="container green">
+    
+        </div>
+    </div>
+
+    <h1>Display Flex + flex-direction</h1>
+    <div style="display:flex; flex-direction: row-reverse;">
+        <div class="container blue">
+        
+        </div>
+        <div class="container red">
+    
+        </div>
+        <div class="container green">
+    
+        </div>
+    </div>
+
+    <h1>Display Flex + flex direction + justify content</h1>
+    <!-- 
+        Justify Content => Horizontal Alignment
+            Properties: center, start, end, space-evenly, space-around, space-between
+        Align Items => Vertical Alignment
+            Properties: flex-start, flex-end, center
+     -->
+    <div style="display:flex; flex-direction: row-reverse; justify-content:space-evenly">
+        <div class="container blue">
+        
+        </div>
+        <div class="container red">
+    
+        </div>
+        <div class="container green">
+    
+        </div>
+    </div>
+
+    <h1>Display Flex + justify/align : baseline</h1>
+    <div style="display:flex; flex-direction: row-reverse; justify-content: center; align-items: baseline;">
+        <div class="container blue" style="height: 50px;">
+        
+        </div>
+        <div class="container red" style="height: 70px;">
+    
+        </div>
+        <div class="container green" style="height: 30px;">
+    
+        </div>
+    </div>
+
+    <!-- 
+        Task:
+            Step:1 => Ek div banana he 350px x 350px
+            Step:2 => Uske andar 2 input tags use karne he, i.e. Username or Password or ye sab center align hona chahiye
+            Step:3 => Or ye pura div ye screen ke center me hona chahiye
+     -->
+</body>
+</html>
